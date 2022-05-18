@@ -1,0 +1,54 @@
+body {
+    background: #90e0ef;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#main {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#main .nav-link {
+    color: #656d4a;
+}
+
+#main .nav-link:hover {
+    color: #ff9100;
+}
+
+#main .navbar-brand {
+    color: #ff9100;
+    font-size: 2rem;
+}
+
+#head span{
+    color: #ff9100;
+}
+
+#head h1{
+    font-weight: 50;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #head h1 {
+        font-size: 3rem
+    };
+}
+
+h2 {
+    color: #ff9100;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.kutjg {
+    color: #656d4a;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.navbar.scrolled {
+    background: #e9fda6;
+    transition: background 500ms;
+}
